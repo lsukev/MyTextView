@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyTextView</string>
+    <string name="myText">I love this</string>
+</resources>
