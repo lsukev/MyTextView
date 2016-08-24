@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MyTextView</string>
     <string name="myText">I love this</string>
+<string name="button_name">Button Text</string>
+    <string name="text_name">Button not clicked!</string>
 </resources>

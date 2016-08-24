@@ -9,12 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.lsukev.mytextview.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:id="@+id/buttonId"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/myText"
-        android:textSize="@dimen/textSize"
-        android:id="@+id/myTextViewId"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/textViewId"
+        android:layout_above="@+id/buttonId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
 </RelativeLayout>
